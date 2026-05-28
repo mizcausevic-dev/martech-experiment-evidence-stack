@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "id": "EXP-500",
+      "experiment": "Navigation CTA variant",
+      "audience": "Returning visitors in ICP traffic",
+      "platform": "GA4",
+      "owner": "Growth Engineering",
+      "status": "ON_TRACK",
+      "workflowHealthy": true,
+      "hoursToLaunch": 6,
+      "packet": "nav-cta packet",
+      "excerpt": "Targeting, holdout, and release evidence are already archived for the next navigation test batch.",
+      "nextAction": "Keep the navigation test green and archive the next measurement proof."
+    }
+  ],
+  "packets": [
+    {
+      "id": "PKT-999",
+      "programId": "EXP-500",
+      "experiment": "Navigation CTA variant",
+      "audience": "Returning visitors in ICP traffic",
+      "platform": "GA4",
+      "owner": "Growth Engineering",
+      "domain": "TARGETING",
+      "kind": "TargetingEvidence",
+      "severity": "low",
+      "status": "RESOLVED",
+      "scope": "Eligibility archive",
+      "principal": "nav-targeting",
+      "message": "Targeting evidence archived and reconciled.",
+      "openedAt": "2026-05-20T08:00:00Z",
+      "dueAt": "2026-05-20T10:00:00Z"
+    }
+  ]
+}
